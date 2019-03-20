@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    /*Always use Roboto because I love the font */
+    background-color: black;
+}
+
+.title {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.board-container {
+    height: 100%;
+    width: 100%
+}
+
+.board {
+    width: 618px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    /* add below this second */
+    border: 3px solid yellow;
+    font-size: 56px;
+}
+
+
+/* X & O Colors */
+
+.square:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.winner {
+    display: none;
+    padding: 10px;
+    font-size: 32px;
+    color: yellow;
+}
+
+.reset {
+    padding: 10px;
+    margin: 10px
+}
+
+
